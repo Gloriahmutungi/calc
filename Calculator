@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+<script>
+   var a = 12, b = 3;
+   var add, subtraction, multiply, div, modulus;
+
+   add = a + b;
+   subtraction = a - b;
+   multiply = a * b;
+   div = a / b;
+   modulus = a % b; 
+
+   document.write("Addition of " + a +' and ' + b +" is = " + add + "<br />");
+   document.write("Subtraction of " + a +' and ' + b +" is = " + subtraction + "<br />");
+   document.write("Multiplication of " + a +' and ' + b +" is = " + multiply + "<br />");
+   document.write("Division of " + a +' and ' + b +" is = " + div + "<br />");
+   document.write("Modulus of " + a +' and ' + b +" is = " + modulus + "<br />");
+</script>
+</body>
+</html>
